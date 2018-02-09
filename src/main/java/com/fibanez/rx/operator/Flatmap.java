@@ -6,8 +6,8 @@ import static rx.Observable.just;
 import static rx.Observable.empty;
 
 /**
- * Use FlatMap() fro the following situation:
- *  - The resulkt of transformation in map() must be an Observable. For example: performing long-running, asynchronous
+ * Use FlatMap() from the following situation:
+ *  - The result of transformation in map() must be an Observable. For example: performing long-running, asynchronous
  *  operation on each element of the stream without blocking.
  *
  *  - You need a one-to-many transformations, a single event is expanded into multiple sub-events. For examples, a
